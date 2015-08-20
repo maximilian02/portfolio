@@ -9,6 +9,18 @@ angular.module('portfolioApp', [
 ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
+      .when('/', {
+        templateUrl: 'app/main/main.html',
+        controller: 'MainCtrl'
+      })
+      .when('/work', {
+        templateUrl: 'app/work/work.html',
+        controller: 'MainCtrl'
+      })
+      .when('/contact', {
+        templateUrl: 'app/contact/contact.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
