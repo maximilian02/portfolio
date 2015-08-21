@@ -23,6 +23,7 @@ $font-family-base:        $font-family-monospace;
 // Component styles are injected through grunt
 // injector
 @import 'main/main.scss';
+@import 'work/work.scss';
 @import 'modal/modal.scss';
 @import 'navbar/navbar.scss';
 // endinjector
