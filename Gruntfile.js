@@ -356,6 +356,7 @@ module.exports = function (grunt) {
             'assets/images/{,*/}*.{webp}',
             'assets/fonts/**/*',
             'assets/files/**/*',
+            'assets/favicon/**/*',
             'index.html'
           ]
         }, {
