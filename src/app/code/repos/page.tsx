@@ -12,7 +12,6 @@ export const metadata = {
 
 const ReposPage = async () => {
   const repos = await fetchRepos()
-  console.log(repos)
 
   return (
     <>
