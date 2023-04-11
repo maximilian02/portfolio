@@ -1,19 +1,36 @@
 {
   "exp": [
     {
-      "company": "Sabre (Intive-FDV Contractor)",
-      "role": "Frontend Engineer",
-      "description": "Remote contractor for Intive-FDV on Sabre project. Remote contractor for Intive-FDV on Sabre project. Collaborated with US teams to develop a ReactJS UI to use in airports, allowing people to buy flight tickets or pay for extra baggage.",
-      "links": ["https://intive.com/es", "https://www.sabre.com/"],
-      "image": "sabre.png",
-      "dateRange": "Jan 2018 - Jan 2019"
+      "company": "Sabre",
+      "dateRange": "Jan 2018 - Jan 2019",
+      "description": "Remote contractor for Intive-FDV on Sabre project. Remote contractor for Intive-FDV on Sabre project. Collaborated with US teams to develop a ReactJS UI to use in airports, allowing people to buy flight tickets or pay for extra baggage",
+      "image": "sabre-new.jpg",
+      "links": ["https://intive.com/es", "https://www.sabre.com"],
+      "role": "Frontend Engineer"
+    },
+    {
+      "company": "Events",
+      "dateRange": "Jan 2015 - Apr 2016",
+      "description": "I joined this team to collaborate on frontend apps using the very first version of Angular and gave me a chance to start digging into the NodeJs world for US clients. I’ve acted as a team leader for Events.com where my team collaborated on some early features like payments with Stripe integration for instance. I’ve had visited Events offices in San Diego, California in 2015, and it was an amazing experience. Code reviews, bug fixing, and collaborating with PO and PM were part of my daily basis as well as developing new features and supporting team members to progress on their tasks",
+      "image": "events-new.jpg",
+      "links": ["https://events.com"],
+      "role": "Frontend Engineer"
+    },
+    {
+      "company": "National Geographic",
+      "dateRange": "Apr 2014 - Sep 2014",
+      "description": "Collaborated on a team with a UX designer on developing an early prototype for the Animals section of the National Geographics official website and rebuilt the experience with a totally different perspective resulting in a 30% increase in the screen traffic on user test validations",
+      "image": "natgeo-new.jpg",
+      "links": ["https://www.nationalgeographic.com"],
+      "role": "Frontend Engineer"
     },
     {
       "company": "Dytar",
-      "role": "Web Developer",
-      "description": "After getting started working with Dytar guys, I soon understood what a start-up means. They allowed me to advocate javascript using ajax to decrease the number of reloads a page would suffer because of the PHP native actions being sent using forms. We added dynamism using javascript vanilla with some jquery work. While taking subjects at university and digging into database modeling, I've had a chance to start modeling and normalizing MySQL databases. I could analyze a problem at work and then design a solution using entity diagrams, adding some normalization and finally, implement it.",
-      "image": "dytar.png",
-      "dateRange": "Dec 2012 - Dec 2013"
+      "dateRange": "Dec 2012 - Dec 2013",
+      "description": "After getting started working with Dytar guys, I soon understood what a start-up means. They allowed me to advocate javascript using ajax to decrease the number of reloads a page would suffer because of the PHP native actions being sent using forms. We added dynamism using javascript vanilla with some jquery work. While taking subjects at university and digging into database modeling, I've had a chance to start modeling and normalizing MySQL databases. I could analyze a problem at work and then design a solution using entity diagrams, adding some normalization and finally, implement it",
+      "image": "dytar-new.jpg",
+      "links": ["https://www.dytar.com.ar/"],
+      "role": "Web Developer"
     }
   ]
 }

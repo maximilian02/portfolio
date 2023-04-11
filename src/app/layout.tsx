@@ -9,7 +9,7 @@ const play = Play({
 })
 
 export const metadata = {
-  title: 'Max Zelarayán',
+  title: "Hey I'm Max",
   description: 'Software engineer with more than a decade of experience',
   keywords: 'software engineer, web development, javascript, typescript, react, node, angular, html, css, npm, yarn, git, github, code, programming'
 }

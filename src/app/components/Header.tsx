@@ -13,7 +13,6 @@ const Header = () => {
 
     setIsDarkMode(darkMode)
     setTheme(darkMode ? 'dark' : 'light')
-    // setTheme()
   }
 
   return (
