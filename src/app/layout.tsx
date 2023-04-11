@@ -1,4 +1,5 @@
 import { Play } from 'next/font/google'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import './globals.css'
 
@@ -19,12 +20,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={play.className}>
+    <html lang="en" className="dark">
+      <body className={`${play.className} light:bg-white light:bg-gray-700 dark:bg-gray-900  dark:text-gray-100`}>
         <Header />
         <main className='container'>
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   )

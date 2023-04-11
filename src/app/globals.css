@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-black dark:text-gray-100;
+    @apply min-h-screen;
+  }
+
+  ::selection {
+    @apply text-white bg-indigo-500;
+  }
+
+
+  .btn{
+    @apply inline-block px-5 py-3 rounded-lg hover:bg-indigo-600 transition duration-300 shadow-lg bg-indigo-500 text-white capitalize tracking-wider font-semibold text-sm sm:text-xl focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-opacity-50 whitespace-nowrap
+  }
+}
+
 :root {
   --primary-color: #0070f3;
 }
@@ -11,8 +27,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
 }
 
 a {
@@ -30,7 +46,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #57DC96;
-  color: #fff;
+  color: #333;
   padding: 1rem;
   border-bottom: 5px solid #fff;
 }
@@ -43,13 +59,13 @@ a {
 .logo a {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #fff;
+  color: #333;
   text-decoration: none;
 }
 
 .links a {
   margin: 0 0.5rem 0 0.5rem;
-  color: #fff;
+  color: #333;
   text-decoration: none;
 }
 

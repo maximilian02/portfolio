@@ -1,0 +1,19 @@
+{
+  "exp": [
+    {
+      "company": "Sabre (Intive-FDV Contractor)",
+      "role": "Frontend Engineer",
+      "description": "Remote contractor for Intive-FDV on Sabre project. Remote contractor for Intive-FDV on Sabre project. Collaborated with US teams to develop a ReactJS UI to use in airports, allowing people to buy flight tickets or pay for extra baggage.",
+      "links": ["https://intive.com/es", "https://www.sabre.com/"],
+      "image": "sabre.png",
+      "dateRange": "Jan 2018 - Jan 2019"
+    },
+    {
+      "company": "Dytar",
+      "role": "Web Developer",
+      "description": "After getting started working with Dytar guys, I soon understood what a start-up means. They allowed me to advocate javascript using ajax to decrease the number of reloads a page would suffer because of the PHP native actions being sent using forms. We added dynamism using javascript vanilla with some jquery work. While taking subjects at university and digging into database modeling, I've had a chance to start modeling and normalizing MySQL databases. I could analyze a problem at work and then design a solution using entity diagrams, adding some normalization and finally, implement it.",
+      "image": "dytar.png",
+      "dateRange": "Dec 2012 - Dec 2013"
+    }
+  ]
+}
