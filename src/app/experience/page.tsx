@@ -16,19 +16,19 @@ const ExperiencePage = () => {
   return (
     <>
       <h1 className="text-xl font-bold mb-2">Experience</h1>
-      <div className="flex justify-center content-center items-center">
+      <div className="flex flex-row flex-wrap p-4 justify-between gap-1">
         {exps.map((exp: Experience) =>
-          <figure className="mb-4 inline-block max-w-sm ml-4">
-            <span className="min-h-32 w-96 h-56 min-w-96 block bg-white">
+          <figure className="max-w-sm mb-4">
+            <span className="max-w-96 h-56 min-w-96 block bg-white">
               <img
                 src={exp.image}
-                className="mb-4 rounded-lg align-middle leading-none shadow-lg"
+                className="mb-4 rounded-lg leading-none shadow-lg"
                 alt="Taking up Water with a Spoon" />
             </span>
-            <h3 className="text-md font-bold text-neutral-600 dark:text-neutral-400">
+            <h3 className="text-md font-bold text-neutral-600">
               {exp.role} @ {exp.company} - {exp.dateRange}
             </h3>
-            <figcaption className="text-sm text-neutral-600 dark:text-neutral-400">
+            <figcaption className="text-sm text-neutral-600">
               {exp.description}
             </figcaption>
           </figure>)}
