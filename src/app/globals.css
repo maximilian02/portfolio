@@ -2,32 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply bg-gray-50 text-gray-900 dark:bg-black dark:text-gray-100;
-    @apply min-h-screen;
-  }
-
-  ::selection {
-    @apply text-white bg-indigo-500;
-  }
-
-
-  .btn{
-    @apply inline-block px-5 py-3 rounded-lg hover:bg-indigo-600 transition duration-300 shadow-lg bg-indigo-500 text-white capitalize tracking-wider font-semibold text-sm sm:text-xl focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-opacity-50 whitespace-nowrap
-  }
-}
-
-:root {
-  --primary-color: #0070f3;
-}
-
 html,
 body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  background-color: #fff;
+  background-color: #111826;
   color: #333;
 }
 
@@ -59,6 +39,7 @@ a {
 .highlight-container {
   display: inline-block;
 }
+
 .highlight-container:before {
   content: " ";
   display: block;
@@ -73,6 +54,10 @@ a {
   left: -1px;
   border-radius: 20% 25% 20% 24%;
   padding: 10px 3px 3px 10px;
+}
+
+span.highlight-container {
+  color: #fff;
 }
 
 .logo {
@@ -117,4 +102,45 @@ a {
   to {
     transform: rotate(360deg);
   }
+}
+
+.tile {
+  width: 100%;
+  background-color: #6466F1;
+  margin: 7px;
+  border-radius: 17px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  opacity: 0.85;
+}
+
+.tile p {
+  color: white;
+} 
+
+.tile:hover {
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+  opacity: 1;
+}
+
+.tile-share-button {
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #6466F1;
+  border: 1px solid white;
+}
+
+.tile-share-button svg, .share-button svg {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  margin: 4px 8px;
 }

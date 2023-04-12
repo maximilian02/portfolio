@@ -3,7 +3,7 @@
     {
       "company": "Sabre",
       "dateRange": "Jan 2018 - Jan 2019",
-      "description": "Remote contractor for Intive-FDV on Sabre project. Collaborated with US teams to develop a ReactJS UI to use in airports, allowing people to buy air tickets or pay for extra baggage",
+      "description": "I worked as a remote contractor for Intive-FDV on the Sabre project, collaborating closely with teams based in the United States. During my time on the project, I contributed to the development of a user interface using <span class='highlight-container'><span class='highlight'>ReactJS</span></span> that is now used in airports. This interface allows travelers to conveniently purchase air tickets or pay for additional baggage",
       "image": "sabre-new.jpg",
       "links": ["https://intive.com/es", "https://www.sabre.com"],
       "role": "Frontend Engineer"
@@ -11,7 +11,7 @@
     {
       "company": "Events",
       "dateRange": "Jan 2015 - Apr 2016",
-      "description": "I joined this team to collaborate on frontend apps using the very first version of Angular and gave me a chance to start digging into the NodeJs world for US clients. I’ve acted as a team leader for Events.com where my team collaborated on some early features like payments with Stripe integration for instance. I’ve had visited Events offices in San Diego, California in 2015, and it was an amazing experience. Code reviews, bug fixing, and collaborating with PO and PM were part of my daily basis as well as developing new features and supporting team members to progress on their tasks",
+      "description": "During my time as a team leader at Events.com, I led a team that collaborated on some of the platform's early features built with <span class='highlight-container'><span class='highlight'>Angular, Bootstrap, Karma and Jasmine</span></span>, including payments with Stripe integration. In 2015, I had the chance to visit Events' offices in San Diego, California, and it was an incredible experience. My daily responsibilities included <span class='highlight-container'><span class='highlight'>code reviews, bug fixing</span></span>, collaborating with product owners and project managers, <span class='highlight-container'><span class='highlight'>developing new features</span></span>, and supporting my team members in their tasks.",
       "image": "events-new.jpg",
       "links": ["https://events.com"],
       "role": "Frontend Engineer"
@@ -19,7 +19,7 @@
     {
       "company": "National Geographic",
       "dateRange": "Apr 2014 - Sep 2014",
-      "description": "Collaborated on a team with a UX designer on developing an early prototype for the Animals section of the National Geographics official website and rebuilt the experience with a totally different perspective resulting in a 30% increase in the screen traffic on user test validations",
+      "description": "As part of a collaborative team, I worked closely with a UX designer to develop an early prototype for the Animals section of the National Geographic website. After identifying areas for improvement, we rebuilt the <span class='highlight-container'><span class='highlight'>user experience</span></span> from a completely different perspective. This redesign resulted in a 30% increase in screen traffic during user test validations, demonstrating the effectiveness of our approach.",
       "image": "natgeo-new.jpg",
       "links": ["https://www.nationalgeographic.com"],
       "role": "Frontend Engineer"
@@ -27,7 +27,7 @@
     {
       "company": "Dytar",
       "dateRange": "Dec 2012 - Dec 2013",
-      "description": "After getting started working with Dytar guys, I soon understood what a start-up means. They allowed me to advocate javascript using ajax to decrease the number of reloads a page would suffer because of the PHP native actions being sent using forms. We added dynamism using javascript vanilla with some jquery work. While taking subjects at university and digging into database modeling, I've had a chance to start modeling and normalizing MySQL databases. I could analyze a problem at work and then design a solution using entity diagrams, adding some normalization and finally, implement it",
+      "description": "Dytar was a local startup based in Buenos Aires. Building their products I was able to advocate for the use of <span class='highlight-container'><span class='highlight'>JavaScript, PHP and AJAX</span></span> to reduce the number of page reloads improving user experience. Collaborating on various projects, I utilized <span class='highlight-container'><span class='highlight'>jQuery</span></span> to build certain features, while also using <span class='highlight-container'><span class='highlight'>Bootstrap</span></span> for styling purposes.<br />Other kind of tasks would also include requirement analysis, entity diagrams, database modeling, normalization, and implementation with <span class='highlight-container'><span class='highlight'>MySQL</span></span>.<br /> In addition during my time there, I had the opportunity to develop an internal chat system using <span class='highlight-container'><span class='highlight'>NodeJS and socket.io</span></span>. Although it was not released, it was a valuable experience for me as it was my first time building a proof-of-concept using Node.",
       "image": "dytar-new.jpg",
       "links": ["https://www.dytar.com.ar/"],
       "role": "Web Developer"

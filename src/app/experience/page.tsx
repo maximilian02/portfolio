@@ -18,7 +18,8 @@ const ExperiencePage = () => {
   return (
     <>
       <h1 className="text-xl font-bold mb-2 pl-4 mt-8"><HighlightText>Experience</HighlightText></h1>
-      <div className="flex flex-row flex-wrap p-4 pl-4 justify-between gap-1">
+      <h2 className="text-md mb-2 pl-4 mt-4">Throughout my career, I have been involved in over 15 projects, both as a contractor and as a direct employee. Some of the notable companies that I have had the opportunity to collaborate with include:</h2>
+      <div className="flex flex-row flex-wrap p-4 pl-4 justify-around gap-1">
         {exps.map((exp: Experience) =>
           <figure className="mb-4 max-w-xs">
             <span className="h-56 bg-white">
@@ -31,7 +32,7 @@ const ExperiencePage = () => {
               {exp.role} @ {exp.company} - {exp.dateRange}
             </h3>
             <figcaption className="text-sm text-neutral-500 mb-1">
-              {exp.description}
+              <p dangerouslySetInnerHTML={{ __html: exp.description }}></p>
             </figcaption>
             <span className="max-w-xs">
               {exp.links.map((link: string) =>
