@@ -1,25 +1,14 @@
-'use client'
-import React, { useState } from 'react'
-import { useTheme } from 'next-themes'
 import Link from "next/link"
 
 const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false)
-  const { systemTheme, theme, setTheme } = useTheme()
 
-  const darkModeToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const darkMode = e?.target.checked
-    console.log(darkMode ? 'dark' : 'light')
-
-    setIsDarkMode(darkMode)
-    setTheme(darkMode ? 'dark' : 'light')
-  }
 
   return (
     <header className="header mb-2 dark:border-gray-700">
       <div className="container dark:text-gray-100 text-gray-900">
         <div className="logo">
           <Link href="/">Max Zelarayán</Link>
+          <h3 className="text-sm">&#126; Software engineer &#126;</h3>
         </div>
         <div className="links flex justify-center">
           <Link href="/">Home</Link>
