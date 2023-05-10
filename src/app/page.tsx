@@ -4,10 +4,10 @@ import HighlightText from "./components/HighlightText"
 const HomePage = () => {
   return (
     <>
-      <div className="cursor-text pl-4 flex flex-row justify-around mt-8">
+      <div className="cursor-text flex flex-row justify-around mt-8">
         <Image
           src="/me.jpeg"
-          className="rounded-full border border-white"
+          className="rounded-full border border-white transition-all object-scale-down"
           width={200}
           height={100}
           alt="Max Zelarayán Profile Picture"
