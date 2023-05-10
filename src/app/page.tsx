@@ -6,7 +6,7 @@ const HomePage = () => {
     <>
       <div className="cursor-text flex flex-row justify-around mt-8">
         <img
-          src="/me.png"
+          src="/me.webp"
           className="rounded-full border border-white w-1/3 md:w-1/6 object-scale-down"
           alt="Max Zelarayán Profile Picture"
         />
