@@ -1,6 +1,22 @@
 {
   "exp": [
     {
+      "company": "Cint",
+      "dateRange": "Oct 2023 - Feb 2024",
+      "description": "Core team collaborator during couple sprints implementing figma designs in touch with Design team @ CINT. <span class='highlight-container'><span class='highlight'>NextJS 13, Tailwind, React, Storybook, React Testing Library and Unit Testing</span></span>",
+      "image": "cint-new.jpg",
+      "links": ["https://www.cint.com/"],
+      "role": "Senior Frontend Developer"
+    },
+    {
+      "company": "Potentia Analytics™",
+      "dateRange": "Aug 2023 - Oct 2023",
+      "description": "I've got a chance to collaborate with Potentia Analytics team, where I have been in charge of set up and deliver releases of a <span class='highlight-container'><span class='highlight'>React Native, Typescript and Mongo Atlas</span></span> application for both Google Playstore and Apple Store. This app was interacting with a Machine Learning model that would process audio generating transcriptions, actor detection and summarization.",
+      "image": "potentia-new.jpg",
+      "links": ["https://www.potentiaco.com/"],
+      "role": "React Native Developer"
+    },
+    {
       "company": "Sabre",
       "dateRange": "Jan 2018 - Jan 2019",
       "description": "I worked as a remote contractor for Intive-FDV on the Sabre project, collaborating closely with teams based in the United States. During my time on the project, I contributed to the development of a user interface using <span class='highlight-container'><span class='highlight'>ReactJS</span></span> that is now used in airports. This interface allows travelers to conveniently purchase air tickets or pay for additional baggage",
